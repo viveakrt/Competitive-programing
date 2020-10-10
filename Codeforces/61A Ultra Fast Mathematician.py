@@ -7,3 +7,4 @@ for i in range(len(k)):
     else:
         res+='1'
 print(res)
+# https://codeforces.com/problemset/problem/61/A
