@@ -33,10 +33,10 @@ example: if problem is Add two number
 then file name should be Add_two_number.py
 
 # Rules
-		1. Do not Add dublicate code
+		1. Do not Add duplicate code
 		2. Do not add simple Hello World Program
 		3. you can add any competitive program
-		4. Try to add problem in Comment in code
+		4. Try to add problem link or explain problem in Comment while writing code
 		5. Try to explain the process you followed for solving the problem
 		6. Eat, Sleep and Code
 
