@@ -4,5 +4,7 @@ for _ in range(int(input())):
     ar=arr.difference({0})
     print(len(ar))
 # https://www.codechef.com/problems/TREE2
-# in is problem we have to find dictinct number excluding one
-# so i take set because is remove duplicate and print length of number
+# in is problem we have to find dictinct 
+# number excluding Zeros
+# so i take set because is remove duplicate and 
+# print length of number
