@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<string.h>
+#include <stdlib.h>
+void func();
+int main()
+{
+int m;
+scanf("%d", &m);
+while(m > 0)
+{  
+func();
+m--;
+}
+return 0;
+}
+void func()
+{
+  char a[100], b[100], c[100];
+  int x, i, j = 0, k = 0;
+  scanf("%s", a);
+  x = strlen(a);
+  for(i = 0; i < x; i++)
+  {
+    if(a[i] > 96)
+      {
+        b[k] = a[i];
+        k++;
+      }
+    if(a[i] < 91)
+    {
+      c[j] = a[i];
+      j++;
+    }     
+  }
+  c[j] = '\0';
+  b[k] = '\0';
+  printf("%s%s\n", c,b);
+}

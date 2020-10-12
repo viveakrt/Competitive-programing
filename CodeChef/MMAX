@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <string.h>
+void func();
+int main()
+{
+	int t;
+	scanf("%d", &t);
+	while(t > 0)
+	{
+		func();
+		t--;
+	}
+	return 0;
+}
+void func()
+{
+	long long int n, r, k = 0, q = 0, s, i;
+	char num[1000000];
+	scanf("%lld", &n);
+	scanf("%s", num);
+	//printf("%s %c %d\n", num, num[1], strlen(num));
+	for (i = 0; i < strlen(num); i++)
+	{
+		//printf("%lld\n", k);
+    	k = (k * 10 + (num[i] - 48)) % n;
+	}
+    //printf("%lld\n", k);
+	if(k == 0)
+	{
+		s = 0;
+	}
+	else
+	{
+		r = n - k;
+		if(r > k)
+		{
+			s = k * 2;
+		}
+		else if( r == k)
+		{
+			s = k * 2;
+			s--;
+		}
+		else
+		{
+			s = r * 2;
+		}
+	}
+	printf("%lld\n", s);
+}

@@ -1,0 +1,37 @@
+#include <stdio.h>
+void func();
+int main() {
+	int t;
+	scanf("%d", &t);
+	while(t > 0)
+	{
+		func();
+		t--;
+	}
+	// your code goes here
+	return 0;
+}
+void func()
+{
+	long int a, b, sum, count = 0, k;
+	scanf("%ld %ld", &a, &b);
+	sum = a + b;
+	while(sum > 0)
+	{
+		k = sum % 10;
+		sum = sum / 10;
+		if(k == 1)
+			count = count + 2;
+		if(k == 2 || k == 3 || k == 5)
+			count = count + 5;
+		if(k == 0 || k == 6 || k == 9)
+			count = count + 6;
+		if(k == 4)
+			count = count + 4;
+		if(k == 7)
+			count = count + 3;
+		if(k == 8)
+			count = count + 7;
+	}
+	printf("%ld\n", count);
+}

@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <math.h>
+void func();
+int main()
+{
+  long int t;
+  scanf("%ld", &t);
+  while(t > 0)
+  {
+    func();
+    t--;
+  }
+  return 0;
+}
+void func()
+{
+  long long int i, j, n, m, count = 0, p, temp;
+  scanf("%lld", &n);
+  scanf("%lld", &p);
+  temp = (n / 2) + 1;
+  m = n % temp;
+  count = (n - m) * (n - m);
+  i = p - n;
+  j = (3 * i) * (i + n - m);
+  count = count + j;
+  if(n == 1 || n == 2)
+    count = pow(p, 3);
+  printf("%lld\n", count);
+}
