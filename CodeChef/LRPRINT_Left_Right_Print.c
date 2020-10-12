@@ -1,3 +1,6 @@
+//Link To The Problem
+//https://www.codechef.com/CYAU2018/problems/LRPRINT/
+
 #include<stdio.h>
 #include<string.h>
 #include <stdlib.h>
