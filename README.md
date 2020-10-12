@@ -38,5 +38,6 @@ then file name should be Add_two_number.py
 		3. you can add any competitive program
 		4. Try to add problem link or explain problem in Comment while writing code
 		5. Try to explain the process you followed for solving the problem
-		6. Eat, Sleep and Code
+		6. Same Problem can be re-submitted in diferent programming language
+		7. Eat, Sleep and Code
 
