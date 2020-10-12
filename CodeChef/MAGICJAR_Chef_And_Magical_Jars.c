@@ -1,3 +1,6 @@
+//Link to the problem
+//https://www.codechef.com/FEB19B/problems/MAGICJAR/
+
 #include <stdio.h>
 long long int cmpfunc (const void * a, const void * b) {
    return ( *(long long int*)b - *(long long int*)b);
