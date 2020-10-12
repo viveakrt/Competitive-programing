@@ -1,4 +1,6 @@
-#include <stdio.h>
+//Link To The Problem
+//https://www.codechef.com/JAN19B/problems/MGAME/#include <stdio.h>
+
 #include <math.h>
 void func();
 int main()
