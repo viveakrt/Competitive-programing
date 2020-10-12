@@ -1,3 +1,6 @@
+//Link To The Problem
+//https://www.codechef.com/SEPT18B/problems/MAGICHF/
+
 #include <stdio.h>
 void func();
 int main() 
