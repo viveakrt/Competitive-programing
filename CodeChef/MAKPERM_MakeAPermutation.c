@@ -1,3 +1,6 @@
+//Link To The Problem
+//https://www.codechef.com/COOK98B/problems/MAKPERM/
+
 #include <stdio.h>
 void func();
 long long int cmpfunc (const void * a, const void * b) 
