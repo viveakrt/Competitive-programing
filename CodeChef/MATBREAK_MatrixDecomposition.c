@@ -1,3 +1,6 @@
+//Link To The Problem
+//https://www.codechef.com/COOK117B/problems/MATBREAK/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
