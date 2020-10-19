@@ -1,3 +1,5 @@
+# PROBLEM URL: https://www.codechef.com/COOK119B/problems/CACHEHIT
+
 import numpy as np
 import math
 
