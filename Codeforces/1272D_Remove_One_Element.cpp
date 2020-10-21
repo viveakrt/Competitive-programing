@@ -1,3 +1,13 @@
+/**
+* Link to problem https://codeforces.com/problemset/problem/1272/D
+* Problem description:
+* You are given an array a consisting of n integers.
+* You can remove at most one element from this array. Thus, the final length of the array is n−1 or n.
+* Your task is to calculate the maximum possible length of the strictly increasing contiguous 
+* subarray of the remaining array.
+*
+*/
+
 #include<bits/stdc++.h>
 
 using namespace std;
