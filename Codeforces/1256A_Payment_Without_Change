@@ -3,7 +3,7 @@
 *Description :-
 *a coins of value n and b coins of value 1 are given
 *In multiple test cases, check if we can satisfy the exact amount S for each test case
-
+*/
 
 
 def calc() :
