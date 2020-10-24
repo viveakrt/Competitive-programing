@@ -1,0 +1,28 @@
+/**
+*Link to the problem : https://codeforces.com/problemset/problem/1256/A
+*Description :-
+*a coins of value n and b coins of value 1 are given
+*In multiple test cases, check if we can satisfy the exact amount S for each test case
+
+
+
+def calc() :
+	a, b, n, s = (int(j) for j in input().strip().split())
+	res = "NO"
+
+	if s % n <= b :
+		if ((a * n) + b) >= s :
+			res = "YES"
+
+	return res	
+
+
+def main() :
+	q = int(input())
+	
+	for _ in range(q) :
+		print(calc())
+
+
+if __name__ == '__main__' :
+	main()
