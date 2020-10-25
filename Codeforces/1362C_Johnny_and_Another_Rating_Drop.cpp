@@ -2,7 +2,7 @@
 * Link to problem: https://codeforces.com/problemset/problem/1362/C
 * Problem description:
 * given a number n, which represent the range of numbers from 0 to n
-* take the representation of each of this numbers in binary,
+* take the representation of each of these numbers in binary,
 * for example 2 = 10, 3 = 11 and so on...
 * now for every number in the range from 0 to n count the number of distinct
 * bits between adjacent binary numbers for example
