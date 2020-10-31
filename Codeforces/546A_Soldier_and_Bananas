@@ -1,0 +1,24 @@
+/**
+*Link for the Problem : https://codeforces.com/problemset/problem/546/A
+*Description :
+*The cost of the bananas increases in the form of a G.P.
+*Given the amt. of monet the buyer has, we are to calculate the amt. he has to borrow from his friend to buy the given no. of bananas.
+*/
+
+import java.util.*;
+public class _546A
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		long n,k,w,sum;
+		k = sc.nextLong();
+		n = sc.nextLong();
+		w = sc.nextLong();
+		sum = (long)(((w*(w+1))/2)*k);
+		if(sum>n)
+			System.out.println(sum-n);
+		else
+			System.out.println("0");
+	}
+}
