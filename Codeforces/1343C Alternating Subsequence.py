@@ -19,7 +19,7 @@ for _ in range(int(input())):
                 sn=[]
     new.append(nn)
     new.append(sn)
-    new = [ele for ele in new if ele != []] 
+    new = [ele for ele in new if ele != []]  
     for i in new:
         ans+=max(i)
     print(ans)
