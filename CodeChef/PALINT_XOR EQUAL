@@ -1,0 +1,74 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+typedef long long ll;
+int main()
+{
+    ios_base::sync_with_stdio(NULL);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    int t;
+    cin>>t;
+    while(t--){
+        ll n,x;
+        cin>>n>>x;
+        ll arr[n];
+        map<ll,ll>mp1;
+        map<ll,ll>mp2;
+        for(ll i=0;i<n;i++){
+            cin>>arr[i];
+            mp1[arr[i]]++;
+            mp2[arr[i]]++;
+        }
+
+        ll maxu=0;
+
+            for(auto it=mp1.begin();it!=mp1.end();it++){
+                maxu=max(maxu,it->second);
+            }
+        if(x!=0){
+            //map<ll,ll>temp;
+            for(ll i=0;i<n;i++){
+                mp2[arr[i]^x]++;
+                //temp[arr[i]^x]++;
+            }
+            ll maxi=0;
+
+            for(auto it=mp2.begin();it!=mp2.end();it++){
+                maxi=max(maxi,it->second);
+            }
+            if(maxu>=maxi){
+                cout<<maxu<<" "<<0<<"\n";
+            }else {
+                ll temp=-1;
+                ll ans=1e9;
+                for(auto it=mp2.begin();it!=mp2.end();it++){
+                if(maxi==it->second) {
+                        temp=it->first;
+                        ans=min(ans,mp2[temp]-mp1[temp]);
+                }
+            }
+            //ll ans=mp2[temp]-mp1[temp];
+
+
+
+            cout<<maxi<<" "<<ans<<"\n";
+            }
+
+        }else {
+            ll maxi=0;
+            for(auto it=mp1.begin();it!=mp1.end();it++){
+                maxi=max(maxi,it->second);
+            }
+            cout<<maxi<<" "<<0<<"\n";
+
+
+        }
+
+
+
+    }
+
+
+}
+
