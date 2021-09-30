@@ -1,13 +1,1 @@
-name: Greetings
 
-on: [pull_request, issues]
-
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'This is Your First Issue You are Evolving'' first issue'
-        pr-message: 'YOUR PULL REQUEST WILL BE EVALUATED SOON.  plz read readme for rules for contribution'' first pr'
