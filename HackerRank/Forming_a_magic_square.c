@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/magic-square-forming/problem
+
 #include<stdio.h>
 #include<math.h>
 int ms0(int a[3][3])
