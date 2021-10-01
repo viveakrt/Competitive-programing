@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch file HackerRank recursive digit sum",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "HackerRank/recursive_digit_sum.go"
+        },
+        {
             "name": "gcc.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
