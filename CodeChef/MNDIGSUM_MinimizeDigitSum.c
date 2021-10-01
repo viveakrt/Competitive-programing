@@ -1,3 +1,5 @@
+// Problem statement: https://www.codechef.com/SEPT21C/problems/MNDIGSUM
+
 #include <bits/stdc++.h>
 using namespace std;
 
