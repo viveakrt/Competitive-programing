@@ -1,3 +1,5 @@
+//Q URL: https://www.codechef.com/JULY21B/problems/CHEFORA
+
 #include <bits/stdc++.h>
 using namespace std;
 
