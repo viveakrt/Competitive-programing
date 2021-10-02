@@ -1,3 +1,4 @@
+//Question link- https://www.hackerrank.com/challenges/halloween-sale/problem
 #include <bits/stdc++.h>
 
 using namespace std;
