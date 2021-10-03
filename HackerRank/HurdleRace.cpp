@@ -1,3 +1,5 @@
+// Problem Link: https://www.hackerrank.com/challenges/the-hurdle-race/problem
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -7,7 +9,7 @@ string rtrim(const string &);
 vector<string> split(const string &);
 
 /*
- * Complete the 'hurdleRace' function below.
+ *  the 'hurdleRace' function .
  *
  * The function is expected to return an INTEGER.
  * The function accepts following parameters:
