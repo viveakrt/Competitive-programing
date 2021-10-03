@@ -1,5 +1,4 @@
-// https://www.codechef.com/START13B/problems/MAGDOORS/
-
+// https://www.codechef.com/START13B/problems/DIWALI1
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -46,18 +45,24 @@ int main()
     while (t--)
     {
         cs++;
-        string s;
-        cin >> s;
-        ll i, temp, n = s.size(), count = 0;
-        for (i = 0; i < n; i++)
-        {
-            ll temp = s[i] - '0';
+        ll p, a, b, c, x, y, i;
+        ll ans = 0;
+        cin >> p >> a >> b >> c >> x >> y;
+        ll a1 = (a * x + b), b1 = (a * y + c);
 
-            if (count % 2 == temp)
-                count++;
-            // cout<<temp<<" "<<count<<" ";
+        // cout<<a1<<" "<<b1<<" ";
+        if (a1 > b1)
+        {
+            ans += p / b1;
+            p -= (p / b1) * b1;
         }
-        cout << count << endl;
+        else
+        {
+            ans += p / a1;
+            p -= (p / a1) * a1;
+        }
+        // cout<<p<<" ";
+        cout << ans << endl;
         // cout<<"Case #"<<cs<<": ";
     }
     return 0;
