@@ -152,7 +152,8 @@
 
   void solve()
   {
-
+    // problem-link : https://codeforces.com/contest/1592/problem/A
+    
     ll n , H; //The number of available weapons and the initial health value of the enemy.
     cin>>n>>H; 
 
