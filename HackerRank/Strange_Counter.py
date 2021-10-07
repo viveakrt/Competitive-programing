@@ -1,6 +1,6 @@
-// Link to question: https://www.hackerrank.com/challenges/strange-code/problem
+# Link to question: https://www.hackerrank.com/challenges/strange-code/problem
 
-// Solution 
+# Solution 
 
 t=int(input())
 v=3
