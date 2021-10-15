@@ -15,6 +15,7 @@ def howManyGames(p, d, m, s):
         l = p+((n-1)*d)
         sn = (n*(p+l))/2
         return n+((s-sn)/m)
+    
     else:
         x1 = abs(int(((-((2*p)-d))+math.sqrt((((2*p)-d)**2)-((4*d)*(-(2*s)))))/(2*d)))
         x2 = abs(int(((-((2*p)-d))-math.sqrt((((2*p)-d)**2)-((4*d)*(-(2*s)))))/(2*d)))
