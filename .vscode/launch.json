@@ -5,6 +5,34 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Competitive-programing_58ff4659"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Competitive-programing_58ff4659"
+        },
+        {
+            "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "leetcode.solution",
+            "projectName": "Competitive-programing_58ff4659"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Leetcode.Solution",
+            "projectName": "Competitive-programing_58ff4659"
+        },
+        {
             "name": "gcc.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
